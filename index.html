@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME SUPERMARKET</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Images/logo.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <header class="header">
+        <img src="Images/logo.jpg" class="logo" alt="logo">
+
+        <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#features">Features</a>
+        <a href="#products">Products</a>
+        <a href="#catogories">Catogories</a>
+        <a href="#review">Review</a>
+        <a href="#blogs">Blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search_btn"></div>
+        <div class="fas fa-user" id="login_btn"></div>
+        <div class="fas fa-shopping-basket" id="cart_btn"></div>
+        <div class="fas fa-bars" id="menu_btn"></div>
+    </div>
+    
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search here....">
+        <label for="search-box" class="fas fa-search"></label>
+
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="Images/cart_01.jpg" alt="Watermelon">
+            <div class="content">
+                <h3>Watermelon</h3>
+                <span class="price">$2.99/-</span>
+                <span class="quantity">qty : 2</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="Images/cart_02.jpg" alt="Onion">
+            <div class="content">
+                <h3>Onion</h3>
+                <span class="price">$1.99/-</span>
+                <span class="quantity">qty : 4</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="Images/cart_03.jpg" alt="pinnaple">
+            <div class="content">
+                <h3>Pinnaple</h3>
+                <span class="price">$4.59/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total">Total : $18.53/- </div>
+        <a href="#" class="btn">Checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>Login now</h3>
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <p>Don't have an account <a href="loginPage.html">Create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+    </header>
+    
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Fresh and <span>Quality</span> Products from us</h3>
+            <p>Discover the finest quality goods, carefully selected for you. Shop with confidence at Prime Supermarket.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <h1 class="heading"> Our <span>Features</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="Images/Features_01.jpg" alt="features_1">
+                <h3>Fresh and Quality</h3>
+                <p>Experience the best products handpicked just for you at Prime Supermarket.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+
+            <div class="box">
+                <img src="Images/Features_02.jpg" alt="features_2">
+                <h3>Free Delivery</h3>
+                <p>Get your favorite products delivered straight to your doorstep — fast, easy, and free!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+
+            <div class="box">
+                <img src="Images/Features_03.jpg" alt="features_3">
+                <h3>Easy Payments</h3>
+                <p>Enjoy smooth and secure payment options for a hassle-free shopping experience at Prime Supermarket.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+        </div>
+    </section>
+  
+    <section class="product" id="products">
+        <h1 class="heading">Our <span>Products</span></h1>
+        
+        <div class="swiper product-slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="Images/product_01.jpg" alt="product_01">
+                    <h3>Apples</h3>
+                    <div class="price">$3.49/= - 7.99/=</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+    
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="Images/product_02.jpg" alt="product_02">
+                    <h3>Red Tomatoes</h3>
+                    <div class="price">$2.99/= - 6.49/=</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+    
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="Images/product_03.jpg" alt="product_03">
+                    <h3>Beef</h3>
+                    <div class="price">$12.99/= - 19.99/=</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+    
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="Images/product_04.jpg" alt="product_04">
+                    <h3>Green Lettuce</h3>
+                    <div class="price">$1.99/= - 4.99/=</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+    
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="swiper product-slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="Images/product_05.jpg" alt="product_05">
+                    <h3>Potatoes</h3>
+                    <div class="price">$2.49/= - 5.99/=</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+    
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="Images/product_06.jpg" alt="product_06">
+                    <h3>Avocados</h3>
+                    <div class="price">$6.49/= - 12.49/=</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+    
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="Images/product_07.jpg" alt="product_07">
+                    <h3>Carrots</h3>
+                    <div class="price">$2.29/= - 5.49/=</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+    
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="Images/product_08.jpg" alt="product_08">
+                    <h3>Fresh Lemons</h3>
+                    <div class="price">$1.49/= - 3.99/=</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+    
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>   
+    
+    <section class="categories" id="catogories">
+        <h1 class="heading">Product <span>Catogories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/cat_01.jpg" alt="categories_01">
+                <h3>Vegitable</h3>
+                <p>upto 2% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="Images/cat_02.jpg" alt="categories_02">
+                <h3>Fruits</h3>
+                <p>upto 3% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="Images/cat_04.jpg" alt="categories_03">
+                <h3>Milky Products</h3>
+                <p>upto 15% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="Images/cat_03.jpg" alt="categories_04">
+                <h3>Meat Items</h3>
+                <p>upto 6% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <h1 class="heading">Customer's <span>Review</span></h1>
+        <div class="review-slider">
+            <div class="wrapper">
+    
+                <div class="box">
+                    <img src="Images/pic_01.jpg" alt="pic_01">
+                    <p>"Absolutely love the freshness and quality of the products!  
+                    The delivery was super fast too. Definitely my go-to store from now on!"</p>
+                    <h3>Lily Parker</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Images/pic_02.jpg" alt="pic_02">
+                    <p>"High quality at affordable prices.  
+                    The avocados and dairy products were super fresh. 10/10 would recommend!"</p>
+                    <h3>Chinthana Sandeepa</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="Images/pic_03.jpg" alt="pic_03">
+                    <p>"Good experience overall. Some items were a little pricey,  
+                    but the quality made up for it. Will shop again!"</p>
+                    <h3>Emma Collins</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <section class="blogs" id="blogs">
+        <h1 class="heading">Our <span>Blogs</span></h1>
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="Images/blog_01.jpg" alt="blog_01">
+                <div class="content">
+                   <div class="icons">
+                       <a href="#"><i class="fas fa-user"></i>By Olivia Green</a>
+                       <a href="#"><i class="fas fa-calendar"></i>1st May 2025</a>
+                    </div>
+                    <h3>Why Organic Foods Are the Future</h3>
+                    <p>Organic fruits and vegetables are not just healthier for you, they’re better for the planet too. 
+                    Discover why going organic is one of the best choices you can make for a sustainable future.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="Images/blog_02.jpg" alt="blog_02">
+                <div class="content">
+                   <div class="icons">
+                       <a href="#"><i class="fas fa-user"></i>By Ethan Brooks</a>
+                       <a href="#"><i class="fas fa-calendar"></i>1st May 2025</a>
+                    </div>
+                    <h3>Top 5 Benefits of Eating Fresh Vegetables</h3>
+                    <p>Fresh vegetables boost your immunity, help with weight management, and give your skin that 
+                    natural glow. Let’s break down why adding more greens to your plate is a game changer!</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="Images/blog_03.jpg" alt="blog_03">
+                <div class="content">
+                   <div class="icons">
+                       <a href="#"><i class="fas fa-user"></i>By Emma Carter</a>
+                       <a href="#"><i class="fas fa-calendar"></i>1st May 2025</a>
+                    </div>
+                    <h3>How to Pick the Freshest Fruits at the Market</h3>
+                    <p>Ever wondered how to choose the sweetest mangoes or the crispiest apples? 
+                    Here’s your ultimate guide to picking perfect fruits every time you hit the market!</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-section about">
+            <h2>Prime Supermarket</h2>
+            <p>Your one-stop destination for all your daily needs. Quality products, amazing deals, and friendly service.</p>
+          </div>
+          
+          <div class="footer-section links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#catogories">Catogories</a></li>
+              <li><a href="#reviews">Review</a></li>
+              <li><a href="#blogs">Blogs</a></li>
+            </ul>
+        </div>
+          <div class="footer-section socials">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#">Facebook</a>
+              <a href="#">Instagram</a>
+              <a href="#">Twitter</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>&copy; 2025 Prime Supermarket. All rights reserved.</p>
+          <p>#1 Project - Avishka Medagamagodage</p>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script_1.js"></script>
+</body>
+</html>
