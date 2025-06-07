@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --blue:rgb(6, 0, 89);
+    --blue:rgb(10, 2, 121);
     --black:rgb(30, 30, 30);
     --white:White;
     --light-color:#666;
@@ -78,15 +78,15 @@ section{
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
-    background: #031f061e;
+    background: #01567d03;
     box-shadow: var(--box-shadow);
     font-weight: bold;
 }
 
 .logo{
-    width: 7%;
+    width: 5%;
     border-radius: 50%;
-    margin: 0 0 0 120px;
+    margin: 0 0 0 110px;
 }
 
 .header .navbar a{
@@ -234,7 +234,7 @@ section{
 }
 
 .header .shopping-cart .total{
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 1rem 0;
     text-align: center;
     color: var(--black);
@@ -294,7 +294,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00b7c2;
+    background-color: #07757b;
     background-size: cover;
     background-position: center;
     padding-top: 17rem;
